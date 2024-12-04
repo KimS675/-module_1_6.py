@@ -7,9 +7,9 @@ a = my_dict.pop ('Masha')
 print(a)
 print(my_dict)
 
-my_set = {1,2,1,2,3,4,5,1,22}
+my_set = {1,2,1,2,3,4,5,1,22, 'law', (1, 2, 3) }
 print(my_set)
-my_set.update({7, 8})
+my_set.update({7, 65, 'fgd'})
 my_set.discard(1)
 print(my_set)
 
